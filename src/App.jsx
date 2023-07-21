@@ -1,11 +1,14 @@
 import React from 'react'
 import Header from './components/Header'
+import InfoHeader from './components/InfoHeader'
+import {Box} from '@mui/material'
 
 const App = () => {
   return (
-    <div>
+    <Box>
       <Header/>
-    </div>
+      <InfoHeader/>
+    </Box>
   )
 }
 
