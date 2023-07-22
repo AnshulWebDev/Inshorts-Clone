@@ -1,8 +1,11 @@
-import express from "express";
-import { getNews } from "../controller/news.js";
+import express from 'express';
 
-const route=express.Router();
+import { getNews } from '../controller/news-controller.js';
 
-route.get('/news',getNews);
+const route = express.Router();
+
+
+route.get('/news', getNews);
+
 
 export default route;

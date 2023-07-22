@@ -1,5 +1,5 @@
 import News from './model/news.js';
-import { data } from './constants/data.js';
+import { data } from './constant/data.js';
 
 const DefaultData = async () => {
     try {
