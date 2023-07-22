@@ -1,7 +1,6 @@
-
-
 export const data = [
-    {
+    {   
+        id: '1029',
         title: 'Man stabs TN Police sub-inspector over month-old fine for drunk driving',
         author: 'Shreyasi Banerjee',
         description: 'A female Tamil Nadu Police sub-inspector was injured after she was stabbed by a man while on duty in Tirunelveli. Police reportedly claimed the accused was enraged as the sub-inspector had booked him one month ago for drunk driving. The accused has been arrested, CM MK Stalin said, adding that he has ordered a high-quality medical treatment for the sub-inspector.',
@@ -11,6 +10,7 @@ export const data = [
         publisher: 'The Quint'
     },
     {
+        id: '2304',
         title: "India has suspended Chinese nationals' tourist visas: Global airlines body",
         author: 'Sakshita Khosla',
         description: `The Indian government has suspended tourist visas issued to Chinese nationals, global airlines body IATA had told its members on April 20. This came after China refused to allow around 22,000 Indian students enrolled in Chinese universities to enter, despite India's appeals. India has requested China to take a "congenial stance" on the issue, MEA spokesperson Arindam Bagchi had said.`,
@@ -20,6 +20,7 @@ export const data = [
         publisher: 'The Print'
     },
     {
+        id: '7459',
         title: `MS Dhoni, teammates dance during Conway's pre-wedding party, CSK share video`,
         author: 'Anmol Sharma',
         description: `CSK took to social media to share a video of their players dancing during batter Devon Conway's pre-wedding party. The video also features MS Dhoni dancing during the party. All-rounder Dwayne Bravo can be seen doing the dance steps of his song 'Number One' with leg-spinner Prashant Solanki. Conway has left the bio-bubble for his wedding.`,
@@ -28,7 +29,8 @@ export const data = [
         link: 'https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/04_apr/24_sun/img_1650787598162_905.jpg',
         publisher: 'The Times of India'
     },
-    {
+    {   
+        id: '9247',
         title: 'Woman constable carries 86-year-old for 5 km in Gujarat’s Kutch desert',
         author: 'Apaar Sharma',
         description: `A 27-year-old police constable, Varsha Parmar, lifted an 86-year-old woman on her back and walked for five kilometres under the sun in the white desert of Gujarat's Kutch. The elderly woman had fainted due to sunstroke. Parmar said that she helped the woman for humanity and had no intention of becoming famous after a video of the incident surfaced online.`,
@@ -38,6 +40,7 @@ export const data = [
         publisher: 'Times Now'
     },
     {
+        id: '4485',
         title: 'Akshay Kumar Bell Bottom screened at world highest mobile theatre in Ladakh',
         author: 'Sakshita Khosla',
         description: 'Actor Akshay Kumar on Sunday said his recent release Bell Bottom was screened at a travelling cinema hall in Ladakh, touted as the worlds highest mobile theatre. [It] makes my heart swell with pride, said Akshay, sharing a picture of the theatre on Twitter. He added, At an altitude of 11,562 feet, the theatre can operate at -28 °C.',
@@ -47,6 +50,7 @@ export const data = [
         publisher: 'Hindustan Times'
     },
     {
+        id: '8456',
         title: 'New Zealand get all out for 60, their joint-lowest total in T20I cricket history',
         author: 'Anmol Sharma',
         description: 'New Zealand were dismissed for 60 runs in the first T20I against Bangladesh at the Shere Bangla National Stadium in Dhaka today. It is New Zealand joint-lowest total in T20I history. They were dismissed for 60 by Sri Lanka in a T20I in 2014. Only captain Tom Latham (18) and Henry Nicholls (18) managed to score in double digits today.',
@@ -56,6 +60,7 @@ export const data = [
         publisher: 'ICC'
     },
     {
+        id: '9841',
         title: 'Vets in Pune perform successful hernia surgery on a dog in a first',
         author: 'Medhaa Gupta',
         description: 'Veterinarians in Pune have for the first time successfully performed hernia surgery on a three-year-old dog. The dog owner said that its condition has improved since the surgery, adding, The surgery has made us realise that even animals suffer diseases like humans but cant express it like us. The dog, named Rolly, has had only one kidney since birth.',
@@ -65,6 +70,7 @@ export const data = [
         publisher: 'Times of India'
     },
     {
+        id: '5578',
         title: 'Expect to have real inclusive government in Afghanistan: US',
         author: 'Athira Sasidharan',
         description: 'The US and the international community expect Taliban to form a real inclusive government in Afghanistan with representations from different communities and interests, State Secretary Antony Blinken said. "[Its] important...what the government looks like...[but whats] more important...is what any government does," he added. Taliban is expected to announce the formation of a new government soon.',
@@ -74,6 +80,7 @@ export const data = [
         publisher: 'Hindustan Times'
     },
     {
+        id: '2548',
         title: 'Shooter Narwal bags India 3rd gold at Tokyo Paralympics, Singhraj wins silver medal',
         author: 'Anmol Sharma',
         description: 'Shooter Manish Narwal won the men’s P4 Mixed 50m Pistol SH1 final to bag Indias third gold at Tokyo Paralympics. The 19-year-old won the event by breaking Paralympic record with a score of 218.2. Meanwhile, shooter Singhraj won silver, his second medal at the ongoing Paralympics after his bronze in P1 Mens 10m Air Pistol SH1 event.',
@@ -83,6 +90,7 @@ export const data = [
         publisher: 'Olympics'
     },
     {
+        id: '6488',
         title: 'Noida DM Suhas LY reaches badminton final at Paralympics, assures India of a medal',
         author: 'Anmol Sharma',
         description: 'Noida District Magistrate (DM) Suhas LY, who is representing India in para badminton at the Tokyo Paralympics, has entered the final of the mens singles SL4 category. He defeated Setiawan Fredy of Indonesia in the semi-final with the scoreline of 21-9, 21-15. Earlier in the day, Pramod Bhagat also reached the final of the mens singles SL3 event.',
@@ -92,6 +100,7 @@ export const data = [
         publisher: 'Olympics'
     },
     {
+        id: '1452',
         title: 'Cristiano Ronaldo to wear jersey number seven at Manchester United again',
         author: 'Anmol Sharma',
         description: 'Manchester United have confirmed that Cristiano Ronaldo will wear the number seven jersey after returning to Old Trafford. The five-time Ballon dOr wore the shirt number during his first spell with the club from 2003-2009. It has previously been worn by club legends like George Best, Bryan Robson, Eric Cantona and David Beckham. Ronaldo inherited the number from Edinson Cavani.',
