@@ -1,10 +1,21 @@
-const express = require("express");
-require('dotenv').config()
+import express from 'express';
+import dotenv from 'dotenv'
 
-const app=express();
+//components
+import Connection from './connection/db.js';
+import DefaultData from './default.js'
+import Route from './routes/route.js'
 
-const PORT=process.env.PORT;
+const app = express();
+dotenv.config();
 
-app.listen(PORT,()=>{
-    console.log(`Server Start Succefully on ${PORT}`)
-})
+const username = process.env.DB_USERNAME;
+const password = process.env.DB_PASSWORD;
+const PORT = process.env.PORT;
+
+Connection(username, password);
+
+app.listen(PORT, () => console.log(`Server is running successfully on PORT ${PORT}`));
+app.use('/',Route);
+
+DefaultData();
