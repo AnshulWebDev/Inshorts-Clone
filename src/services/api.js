@@ -1,10 +1,11 @@
-import axios from "axios"
-
-export const getNews=async()=>{
-    const URL='';
-    try {
-        await axios.get(URL)
-    } catch (error) {
-        console.log(error)
-    }
-}
+export const getNews = async () => {
+//   const URL = 'https://inshortsclone-wo4m.onrender.com';
+  try {
+    await fetch(`https://inshortsclone-wo4m.onrender.com/news`)
+      .then((response) => response.json())
+      .then((data) => setData(data))
+      .catch((error) => console.log(error));
+  } catch (error) {
+    console.log(error);
+  }
+};
