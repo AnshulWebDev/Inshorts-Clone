@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import InfoHeader from "./components/InfoHeader";
 import { Box,styled } from "@mui/material";
+import Articals from "./components/Articals";
 
 //style
 const Container=styled(Box)`
@@ -16,6 +17,7 @@ const App = () => {
       <Header />
       <Container>
         <InfoHeader />
+        <Articals/>
       </Container>
     </Box>
   );
